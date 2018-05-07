@@ -2,7 +2,7 @@
 
 This application generates a distance graph which is a matrix of numbers that shows the minimum number of
 turns it takes for a knight in a given starting position (x0, y0) to reach the coordinate in the matrix. If the
-coordinate is unreachable, we denote it with -1. 
+coordinate is unreachable, we denote it with -1. It uses breadth first search to find the shortest path.
 
 ### Technology Specification
 1. This project is built using Java 8.
@@ -14,7 +14,7 @@ maven will fetch the JUnit dependencies by itself.
 1. Navigate to the root directory
 2. Build the application JAR file using Maven <br />
    ```shell 
-   mvn package
+    mvn package
    ```
 3. Navigate to the *target* directory and run the JAR file
    ```shell 
@@ -26,5 +26,5 @@ maven will fetch the JUnit dependencies by itself.
          <arg3> = starting Y coordinate,
 4. To run the test cases, use this command when in the root directory
    ```shell 
-      mvn test
+    mvn test
    ```
