@@ -20,10 +20,10 @@ maven will fetch the JUnit dependencies by itself.
    ```shell 
       java -jar distance-graph-1.0.jar <arg0> <arg1> <arg2> <arg3> 
    ```
-   where <arg0> = length of the chess board,
-         <arg1> = width of the chess board,
-         <arg2> = starting X coordinate,
-         <arg3> = starting Y coordinate,
+   where *arg0* = length of the chess board,
+         *arg1* = width of the chess board,
+         *arg2* = starting X coordinate,
+         *arg3* = starting Y coordinate,
 4. To run the test cases, use this command when in the root directory
    ```shell 
     mvn test
